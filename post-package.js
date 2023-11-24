@@ -1,5 +1,6 @@
 const { MongoClient } = require("mongodb");
 const { validate, getToml, checkVersions } = require("./package-validator.js");
+const sha256 = require("js-sha256").sha256;
 
 const uri = "mongodb://localhost:27017";
 const client = new MongoClient(uri);
@@ -33,7 +34,7 @@ async function post_package(ctx) {
 
   try {
     user = await users.findOne({
-      auth_token_hash: auth_token,
+      auth_token_hash: sha256(auth_token),
     });
   } catch (error) {
     ctx.throw(500, error);
@@ -92,14 +93,10 @@ async function post_package(ctx) {
     }
 
     console.log("Authors are the same. Proceeding with package validation.");
-    validate(package);
-    console.log(
-      "All file paths and dependencies are valid! Checking versions."
-    );
 
     if (!checkVersions(db_package.version, version)) {
       console.log(
-        `${version} isn't larger than ${db_package.version}. Throwing error`
+        `Package version has not increased from ${db_package.version}. Throwing error`
       );
       ctx.throw(
         409,
@@ -108,6 +105,11 @@ async function post_package(ctx) {
     }
 
     console.log("Version has increased to " + version);
+
+    validate(package);
+    console.log(
+      "All file paths and dependencies are valid! Checking versions."
+    );
 
     await package_metadata.updateOne(
       {

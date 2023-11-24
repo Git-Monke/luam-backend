@@ -1,0 +1,6 @@
+[package]
+name = "luam"
+version = "0.1.0"
+
+[dependencies]
+crate_name = "0.8.4"

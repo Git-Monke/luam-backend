@@ -4,7 +4,8 @@ const app = new Koa();
 const bodyParser = require("koa-bodyparser");
 
 const signup = require("./signup.js");
-const validate = require("./package-validator.js");
+const post_package = require("./post-package.js");
+const pull_package = require("./pull-package.js");
 
 const uri = "mongodb://localhost:27017";
 const client = new MongoClient(uri);
@@ -50,13 +51,12 @@ app.use(async (ctx) => {
   }
 
   if (ctx.path == "/post_package") {
-    let package = JSON.parse(ctx.request.body.raw_package);
-    validate(package);
-    ctx.body = "Posting package";
+    await post_package(ctx);
     return;
   }
 
-  if (ctx.path == "/fetch_package") {
+  if (ctx.path == "/pull_package") {
+    await pull_package(ctx);
     return;
   }
 

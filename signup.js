@@ -88,7 +88,7 @@ async function signup(ctx, users) {
     users.insertOne({
       username: data.login,
       id: data.id,
-      auth_token: sha256(newToken),
+      auth_token_hash: sha256(newToken),
       created_on: Date.now(),
     });
 

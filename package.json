@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "axios": "^1.6.2",
+    "js-sha256": "^0.10.1",
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.1",
+    "mongodb": "^6.3.0",
+    "toml": "^3.0.0"
+  }
+}

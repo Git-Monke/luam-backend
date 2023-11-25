@@ -46,3 +46,27 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"Yanked butt_package v0.1.1","timestamp":"2023-11-25T06:44:16.312Z"}
 {"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages/butt_package/yank?version=0.1.1 | InvalidAuthKey","timestamp":"2023-11-25T06:44:20.782Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Yanked butt_package v0.1.1","timestamp":"2023-11-25T06:44:26.623Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages/butt_package/unyank | NotPackageAuthor","timestamp":"2023-11-25T16:07:44.673Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Unyanked butt_package v0.1.3","timestamp":"2023-11-25T16:07:52.620Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | InvalidVersion","timestamp":"2023-11-25T16:23:23.807Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | InvalidAuthKey","timestamp":"2023-11-25T16:23:37.683Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | NameTaken","timestamp":"2023-11-25T16:23:41.303Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"luam updated to v0.1.3","timestamp":"2023-11-25T16:23:45.568Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"luam v0.1.3 added to registry","timestamp":"2023-11-25T16:23:45.576Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected GET /packages/luam?version=0.1.1 | VersionNotFound","timestamp":"2023-11-25T16:24:12.787Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served luam v0.1.2 | 9 downloads","timestamp":"2023-11-25T16:24:17.372Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served luam v0.1.3 | 10 downloads","timestamp":"2023-11-25T16:24:22.919Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served luam v0.1.3 | 11 downloads","timestamp":"2023-11-25T16:24:26.258Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served luam v0.1.3 | 12 downloads","timestamp":"2023-11-25T16:24:44.389Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served luam v0.1.2 | 13 downloads","timestamp":"2023-11-25T16:24:59.859Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served luam v0.1.3 | 14 downloads","timestamp":"2023-11-25T16:25:02.282Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected GET /packages/luam?version=0.1.1 | VersionNotFound","timestamp":"2023-11-25T16:25:09.746Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served luam v0.1.2 | 15 downloads","timestamp":"2023-11-25T16:25:12.258Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected GET /packages/random?version=0.1.2 | PackageNotFound","timestamp":"2023-11-25T16:25:15.404Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt_package v0.1.2 | 1 downloads","timestamp":"2023-11-25T16:25:20.424Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt_package v0.1.3 | 2 downloads","timestamp":"2023-11-25T16:25:22.342Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt_package v0.1.2 | 3 downloads","timestamp":"2023-11-25T16:25:26.531Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt_package v0.1.1 | 4 downloads","timestamp":"2023-11-25T16:25:30.157Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Yanked butt_package v0.1.1","timestamp":"2023-11-25T16:31:46.572Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Unyanked butt_package v0.1.3","timestamp":"2023-11-25T16:31:56.204Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Unyanked butt_package v0.1.1","timestamp":"2023-11-25T16:32:22.384Z"}

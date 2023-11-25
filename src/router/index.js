@@ -1,11 +1,11 @@
 const { APIError, ErrorCodes } = require("../utils/apierror");
 
-const postUser = require("../controllers/postUser");
+const postUser = require("../controllers/signupController");
 
-const getPackage = require("../controllers/package/getPackage");
-const postPackage = require("../controllers/package/postPackage");
+const getPackage = require("../controllers/package/getController");
+const postPackage = require("../controllers/package/postController");
 
-const setYankStatus = require("../controllers/package/setYankStatus");
+const setYankStatus = require("../controllers/package/yankController");
 
 const router = require("koa-router");
 

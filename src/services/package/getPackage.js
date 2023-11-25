@@ -1,5 +1,3 @@
-const { APIError } = require("../../utils/apierror");
-
 const {
   tolerantFindOne,
   packageVersions,
@@ -8,14 +6,9 @@ const {
 
 const logger = require("../../utils/logger");
 
-async function get(ctx) {
-  const name = ctx.params.name;
-  let version = ctx.query.version;
+const { APIError } = require("../../utils/apierror");
 
-  if (!name) {
-    throw new APIError(400, "NoName");
-  }
-
+async function get(name, version) {
   const packageMeta = await tolerantFindOne(packageMetadata, {
     name: name,
   });
@@ -54,8 +47,6 @@ async function get(ctx) {
       packageMeta.downloads + 1
     ).toLocaleString()} downloads`
   );
-
-  ctx.body = packageData;
 }
 
 module.exports = get;

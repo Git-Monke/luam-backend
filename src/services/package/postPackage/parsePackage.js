@@ -1,3 +1,5 @@
+const { APIError } = require("../../../utils/apierror");
+
 async function parsePackage(data) {
   try {
     return JSON.parse(data);

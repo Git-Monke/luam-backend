@@ -1,4 +1,4 @@
-const { APIError } = require("../../utils/apierror");
+const { APIError } = require("../../../utils/apierror");
 const toml = require("toml");
 
 async function getToml(package) {

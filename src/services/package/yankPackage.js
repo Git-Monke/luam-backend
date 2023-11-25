@@ -1,5 +1,3 @@
-const { sha256 } = require("js-sha256");
-const { APIError } = require("../../utils/apierror");
 const {
   tolerantFindOne,
   users,
@@ -7,18 +5,12 @@ const {
   packageMetadata,
 } = require("../../utils/tolerantFind");
 
+const { sha256 } = require("js-sha256");
+const { APIError } = require("../../utils/apierror");
+
 const logger = require("../../utils/logger");
 
-async function yank(ctx, newYankStatus) {
-  const body = ctx.request.body;
-  const authKey = body.authKey;
-  let version = ctx.query.version;
-  const packageName = ctx.params.name;
-
-  if (!authKey || !packageName) {
-    throw new APIError(400, !authKey ? "NoAuthKey" : "NoPackageName");
-  }
-
+async function yankPackage(authKey, packageName, version, newYankStatus) {
   const user = await tolerantFindOne(users, {
     authKeyHash: sha256(authKey),
   });
@@ -68,8 +60,6 @@ async function yank(ctx, newYankStatus) {
     "info",
     `${newYankStatus ? "Yanked" : "Unyanked"} ${packageName} v${version}`
   );
-
-  ctx.status = 200;
 }
 
-module.exports = yank;
+module.exports = yankPackage;

@@ -1,6 +1,7 @@
 const { APIError } = require("../../utils/apierror");
 const getToml = require("../../services/package/getToml");
 const parsePackage = require("../../services/package/parsePackage");
+const normalizeAPIS = require("../../services/package/apiNormalizer");
 const {
   tolerantFindOne,
   users,
@@ -8,6 +9,8 @@ const {
   packageVersions,
 } = require("../../utils/tolerantFind");
 const { sha256 } = require("js-sha256");
+
+const logger = require("../../utils/logger");
 
 function checkVersions(version1, version2) {
   let v1 = version1.split(".").map((v) => parseInt(v));
@@ -56,7 +59,9 @@ async function post(ctx) {
     throw new APIError(400, "InvalidAuthKey");
   }
 
-  const package = await parsePackage(data);
+  let package = await parsePackage(data);
+  normalizeAPIS(package);
+
   const toml = await getToml(package);
 
   if (!toml.package) {
@@ -106,6 +111,8 @@ async function post(ctx) {
         },
       }
     );
+
+    logger.log("info", `${name} updated to v${version}`);
   } else {
     newPack = await packageMetadata.insertOne({
       name: name,
@@ -114,6 +121,8 @@ async function post(ctx) {
       author: user._id,
       downloads: 0,
     });
+
+    logger.log("info", `${user.login} created a new package: ${name}!`);
   }
 
   await packageVersions.insertOne({
@@ -121,8 +130,9 @@ async function post(ctx) {
     version: version,
     package: package,
     dateCreated: Date.now(),
-    meta: packageMeta ? packageMeta._id : newPack._id,
   });
+
+  logger.log("info", `${name} v${version} added to registry`);
 
   ctx.status = 200;
 }

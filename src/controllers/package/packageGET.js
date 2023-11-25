@@ -6,6 +6,8 @@ const {
   packageMetadata,
 } = require("../../utils/tolerantFind");
 
+const logger = require("../../utils/logger");
+
 async function get(ctx) {
   const name = ctx.query.name;
   let version = ctx.query.version;
@@ -34,6 +36,24 @@ async function get(ctx) {
   if (!packageData) {
     throw new APIError(404, "VersionNotFound");
   }
+
+  await packageMetadata.updateOne(
+    {
+      _id: packageMeta._id,
+    },
+    {
+      $set: {
+        downloads: packageMeta.downloads + 1,
+      },
+    }
+  );
+
+  logger.log(
+    "info",
+    `Served ${name} v${version} | ${(
+      packageMeta.downloads + 1
+    ).toLocaleString()} downloads`
+  );
 
   ctx.body = packageData;
 }

@@ -5,6 +5,8 @@ const sha256 = require("js-sha256").sha256;
 const githubGet = require("./githubGetRequest");
 const { tolerantFindOne, users } = require("../../utils/tolerantFind");
 
+const logger = require("../../utils/logger");
+
 const chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 
 function randomID(length) {
@@ -56,6 +58,7 @@ async function signupUser(githubToken) {
         },
       }
     );
+    logger.log("info", `Generated new auth token for ${db_user.login}`);
   } else {
     await users.insertOne({
       login: user.login,
@@ -63,6 +66,7 @@ async function signupUser(githubToken) {
       authKeyHash: sha256(newAuthToken),
       dateCreated: Date.now(),
     });
+    logger.log("info", `Successfully signed up new user ${user.login}`);
   }
 
   return newAuthToken;

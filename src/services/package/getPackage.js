@@ -47,6 +47,8 @@ async function get(name, version) {
       packageMeta.downloads + 1
     ).toLocaleString()} downloads`
   );
+
+  return packageData;
 }
 
 module.exports = get;

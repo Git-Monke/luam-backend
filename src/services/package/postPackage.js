@@ -12,6 +12,7 @@ const parsePackage = require("./postPackage/parsePackage");
 const normalizeAPIS = require("./postPackage/apiNormalizer");
 const getToml = require("./postPackage/getToml");
 const checkVersions = require("./postPackage/checkVersions");
+const checkDependencies = require("./postPackage/checkDependencies");
 
 const logger = require("../../utils/logger");
 
@@ -35,14 +36,21 @@ async function postPackage(authKey, data) {
 
   const name = toml.package.name;
   const version = toml.package.version;
+  const dependencies = toml.dependencies;
 
-  if (!name || !version) {
+  if (!name || !version || !dependencies) {
     throw new APIError(
       422,
       "LackingNecessaryTomlInfo",
-      !name ? "Lacking name" : "Lacking Version"
+      !name
+        ? "Lacking name"
+        : !version
+        ? "Lacking version"
+        : "Lacking dependencies"
     );
   }
+
+  await checkDependencies(dependencies);
 
   const packageMeta = await tolerantFindOne(packageMetadata, {
     name: name,

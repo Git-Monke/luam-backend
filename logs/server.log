@@ -79,3 +79,25 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"Served luam v0.1.2 | 20 downloads","timestamp":"2023-11-25T16:48:15.010Z"}
 {"level":"\u001b[33mwarn\u001b[39m","message":"Rejected GET /packages/wrong_name?version=0.1.2 | PackageNotFound","timestamp":"2023-11-25T16:48:18.501Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Served butt_package v0.1.2 | 5 downloads","timestamp":"2023-11-25T16:48:22.921Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | InvalidVersion","timestamp":"2023-11-25T16:53:40.275Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | InvalidVersion","timestamp":"2023-11-25T16:53:56.484Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"TypeError: Cannot convert undefined or null to object\nTypeError: Cannot convert undefined or null to object\n    at Function.entries (<anonymous>)\n    at checkDependencies (/Users/jacob/luam-backend/src/services/package/postPackage/checkDependencies.js:9:38)\n    at postPackage (/Users/jacob/luam-backend/src/services/package/postPackage.js:41:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async post (/Users/jacob/luam-backend/src/controllers/package/postController.js:18:3)\n    at async bodyParser (/Users/jacob/luam-backend/node_modules/koa-bodyparser/index.js:78:5)\n    at async handleError (/Users/jacob/luam-backend/src/middleware/errorhandling/index.js:8:5)","timestamp":"2023-11-25T17:01:14.785Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"TypeError: Cannot convert undefined or null to object\nTypeError: Cannot convert undefined or null to object\n    at Function.entries (<anonymous>)\n    at checkDependencies (/Users/jacob/luam-backend/src/services/package/postPackage/checkDependencies.js:9:38)\n    at postPackage (/Users/jacob/luam-backend/src/services/package/postPackage.js:41:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async post (/Users/jacob/luam-backend/src/controllers/package/postController.js:18:3)\n    at async bodyParser (/Users/jacob/luam-backend/node_modules/koa-bodyparser/index.js:78:5)\n    at async handleError (/Users/jacob/luam-backend/src/middleware/errorhandling/index.js:8:5)","timestamp":"2023-11-25T17:01:29.569Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | InvalidVersion","timestamp":"2023-11-25T17:01:46.856Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | InvalidVersion","timestamp":"2023-11-25T17:03:39.641Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | InvalidVersion","timestamp":"2023-11-25T17:04:11.977Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | InvalidVersion","timestamp":"2023-11-25T17:04:23.822Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | Package depends on rand v0.1.2 which cannot be found in the registry.","timestamp":"2023-11-25T17:04:32.583Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | Package depends on butt_package v0.1.6 which cannot be found in the registry.","timestamp":"2023-11-25T17:04:55.165Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | InvalidVersion","timestamp":"2023-11-25T17:05:03.347Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Yanked butt_package v0.1.1","timestamp":"2023-11-25T17:05:15.181Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | InvalidVersion","timestamp":"2023-11-25T17:05:27.083Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | Package depends on butt_package v0.1.1 which cannot be found in the registry.","timestamp":"2023-11-25T17:05:32.274Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | Package depends on butt_package v0.1.1 which cannot be found in the registry.","timestamp":"2023-11-25T17:05:58.243Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | Package depends on butt_package v0.1.1 which cannot be found in the registry.","timestamp":"2023-11-25T17:06:12.928Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | Package depends on butt_package v0.1.1 which cannot be found in the registry.","timestamp":"2023-11-25T17:06:36.440Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | Package depends on butt_package v0.1.1 which is yanked.","timestamp":"2023-11-25T17:06:47.437Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Unyanked butt_package v0.1.1","timestamp":"2023-11-25T17:06:55.245Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | InvalidVersion","timestamp":"2023-11-25T17:07:00.204Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"luam updated to v0.1.4","timestamp":"2023-11-25T17:07:07.132Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"luam v0.1.4 added to registry","timestamp":"2023-11-25T17:07:07.136Z"}

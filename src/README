@@ -1,0 +1,28 @@
+This is for documentation about what unclear js files do for future reference
+
+# utils/tolerantFetch.js
+
+This file abstracts away the try {} catch block required for every single mongoDB call.
+
+## Potential Errors:
+
+500, MongoDBError, Details
+
+# services/user/signupUser.js
+
+Signs up a user given a github auth token.
+
+## Potential Errors:
+
+400, NoGithubToken
+403, NoVerifiedEmail
+All githubGetRequest.js errors
+
+# services/user/githubGetRequest.js
+
+Sends a request to github's rest api and returns the response.
+
+## Potential Errors:
+
+404, GithubFetchError
+500, GithubNotAvailable

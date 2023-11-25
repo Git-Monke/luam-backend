@@ -8,7 +8,7 @@ async function handleError(ctx, next) {
     await next(ctx);
   } catch (error) {
     if (!error.code) {
-      logger.log("error", error);
+      logger.log("error", error + "\n" + error.stack);
       return;
     }
 

@@ -41,7 +41,7 @@ function checkVersions(version1, version2) {
 async function post(ctx) {
   const body = ctx.request.body;
   const data = body.data;
-  const authKey = ctx.query.authKey;
+  const authKey = body.authKey;
 
   if (!data) {
     throw new APIError(400, "NoPackageData");
@@ -130,6 +130,7 @@ async function post(ctx) {
     version: version,
     package: package,
     dateCreated: Date.now(),
+    yanked: false,
   });
 
   logger.log("info", `${name} v${version} added to registry`);

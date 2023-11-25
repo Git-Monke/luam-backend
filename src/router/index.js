@@ -1,39 +1,21 @@
 const { APIError, ErrorCodes } = require("../utils/apierror");
 
-const userPOST = require("../controllers/userPOST");
+const postUser = require("../controllers/postUser");
 
-const packageGET = require("../controllers/package/packageGET");
-const packagePOST = require("../controllers/package/packagePOST");
+const getPackage = require("../controllers/package/getPackage");
+const postPackage = require("../controllers/package/postPackage");
 
-class RouterClass {
-  constructor() {
-    this.routes = {};
-  }
+const setYankStatus = require("../controllers/package/setYankStatus");
 
-  addRoute(path, method, controller) {
-    if (!this.routes[path]) {
-      this.routes[path] = {};
-    }
+const router = require("koa-router");
 
-    this.routes[path][method] = controller;
-  }
+const Router = router();
 
-  async route(ctx) {
-    let route = this.routes[ctx.path];
+Router.post("/user", postUser);
 
-    if (route && route[ctx.method]) {
-      await route[ctx.method](ctx);
-    } else {
-      throw new APIError(ErrorCodes.BAD_REQUEST, "InvalidRoute");
-    }
-  }
-}
-
-const Router = new RouterClass();
-
-Router.addRoute("/user", "POST", userPOST);
-
-Router.addRoute("/packages", "GET", packageGET);
-Router.addRoute("/packages", "POST", packagePOST);
+Router.get("/packages/:name", getPackage);
+Router.post("/packages/:name/yank", (ctx) => setYankStatus(ctx, true));
+Router.post("/packages/:name/unyank", (ctx) => setYankStatus(ctx, false));
+Router.post("/packages", postPackage);
 
 module.exports = Router;

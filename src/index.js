@@ -17,7 +17,7 @@ app.use(
   })
 );
 
-app.use(async (ctx) => Router.route(ctx));
+app.use(Router.routes());
 
 app.listen(3000, () => {
   console.log("Server started on port 3000");

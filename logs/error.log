@@ -1,0 +1,3 @@
+{"level":"\u001b[31merror\u001b[39m","timestamp":"2023-11-25T06:35:36.094Z"}
+{"level":"\u001b[31merror\u001b[39m","timestamp":"2023-11-25T06:36:21.142Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"TypeError: Assignment to constant variable.\nTypeError: Assignment to constant variable.\n    at yank (/Users/jacob/luam-backend/src/controllers/package/setYankStatus.js:45:13)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async bodyParser (/Users/jacob/luam-backend/node_modules/koa-bodyparser/index.js:78:5)\n    at async handleError (/Users/jacob/luam-backend/src/middleware/errorhandling/index.js:8:5)","timestamp":"2023-11-25T06:37:40.683Z"}

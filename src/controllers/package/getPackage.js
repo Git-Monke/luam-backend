@@ -9,7 +9,7 @@ const {
 const logger = require("../../utils/logger");
 
 async function get(ctx) {
-  const name = ctx.query.name;
+  const name = ctx.params.name;
   let version = ctx.query.version;
 
   if (!name) {
@@ -42,8 +42,8 @@ async function get(ctx) {
       _id: packageMeta._id,
     },
     {
-      $set: {
-        downloads: packageMeta.downloads + 1,
+      $inc: {
+        downloads: 1,
       },
     }
   );

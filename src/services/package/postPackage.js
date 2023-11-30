@@ -10,13 +10,15 @@ const { sha256 } = require("js-sha256");
 
 const parsePackage = require("./postPackage/parsePackage");
 const normalizeAPIS = require("./postPackage/apiNormalizer");
-const getToml = require("./postPackage/getToml");
+const getPackageMeta = require("./postPackage/getPackageMeta");
 const checkVersions = require("./postPackage/checkVersions");
 const checkDependencies = require("./postPackage/checkDependencies");
 
+const versionRegex = /(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)/gm;
+
 const logger = require("../../utils/logger");
 
-async function postPackage(authKey, data) {
+async function postPackage(authKey, package) {
   const user = await tolerantFindOne(users, {
     authKeyHash: sha256(authKey),
   });
@@ -25,23 +27,20 @@ async function postPackage(authKey, data) {
     throw new APIError(400, "InvalidAuthKey");
   }
 
-  let package = await parsePackage(data);
-  normalizeAPIS(package);
+  const packageJSON = await getPackageMeta(package);
 
-  const toml = await getToml(package);
-
-  if (!toml.package) {
-    throw new APIError(422, "NoPackageInToml");
+  if (!packageJSON.package) {
+    throw new APIError(422, "NoPackageInfo");
   }
 
-  const name = toml.package.name;
-  const version = toml.package.version;
-  const dependencies = toml.dependencies;
+  const name = packageJSON.package.name;
+  const version = packageJSON.package.version;
+  const dependencies = packageJSON.dependencies;
 
   if (!name || !version || !dependencies) {
     throw new APIError(
       422,
-      "LackingNecessaryTomlInfo",
+      "LackingNecessaryPackageInfo",
       !name
         ? "Lacking name"
         : !version
@@ -81,15 +80,21 @@ async function postPackage(authKey, data) {
       {
         $set: {
           version: version,
+          versionHistory: packageMeta.versionHistory.concat(version),
         },
       }
     );
 
     logger.log("info", `${name} updated to v${version}`);
   } else {
+    if (!versionRegex.test(version)) {
+      throw new APIError(400, "ImpureVersionNumber");
+    }
+
     newPack = await packageMetadata.insertOne({
       name: name,
       version: version,
+      versionHistory: [version],
       dateCreated: Date.now(),
       author: user._id,
       downloads: 0,
@@ -104,6 +109,9 @@ async function postPackage(authKey, data) {
     package: package,
     dateCreated: Date.now(),
     yanked: false,
+    dependencies: dependencies,
+    external: packageJSON.external || [],
+    unsafe: packageJSON.external ? packageJSON.external.length > 0 : false,
   });
 
   logger.log("info", `${name} v${version} added to registry`);

@@ -7,6 +7,7 @@ const {
 const logger = require("../../utils/logger");
 
 const { APIError } = require("../../utils/apierror");
+const adjustSemver = require("../../utils/semver");
 
 async function get(name, version) {
   const packageMeta = await tolerantFindOne(packageMetadata, {
@@ -19,6 +20,8 @@ async function get(name, version) {
 
   if (!version) {
     version = packageMeta.version;
+  } else {
+    version = adjustSemver(packageMeta.versionHistory, version);
   }
 
   const packageData = await tolerantFindOne(packageVersions, {

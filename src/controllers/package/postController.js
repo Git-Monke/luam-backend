@@ -4,6 +4,7 @@ const postPackage = require("../../services/package/postPackage");
 
 async function post(ctx) {
   const body = ctx.request.body;
+
   const data = body.data;
   const authKey = body.authKey;
 

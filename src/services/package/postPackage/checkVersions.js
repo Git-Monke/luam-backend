@@ -1,4 +1,12 @@
+const { APIError } = require("../../../utils/apierror");
+
+const versionRegex = /(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)/gm;
+
 function checkVersions(version1, version2) {
+  if (!versionRegex.test(version2)) {
+    throw new APIError(400, "ImpureVersionNumber");
+  }
+
   let v1 = version1.split(".").map((v) => parseInt(v));
   let v2 = version2.split(".").map((v) => parseInt(v));
 

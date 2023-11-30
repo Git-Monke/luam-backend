@@ -1,22 +1,37 @@
 const {
   tolerantFindOne,
   packageVersions,
+  packageMetadata,
 } = require("../../../utils/tolerantFind");
 
 const { APIError } = require("../../../utils/apierror");
 
+const adjustSemver = require("../../../utils/semver");
+
 async function checkDependencies(dependencies) {
   for (let [name, version] of Object.entries(dependencies)) {
+    const packageMeta = await tolerantFindOne(packageMetadata, {
+      name: name,
+    });
+
+    if (!packageMeta) {
+      throw new APIError(
+        404,
+        "DependencyNotFound",
+        `The package ${name} cannot be found in the registry.`
+      );
+    }
+
     const packageData = await tolerantFindOne(packageVersions, {
       name: name,
-      version: version,
+      version: adjustSemver(packageMeta.versionHistory, version),
     });
 
     if (!packageData) {
       throw new APIError(
         404,
-        "DependencyNotFound",
-        `Package depends on ${name} v${version} which cannot be found in the registry.`
+        "InvalidDependencyVersion",
+        `${name} v${version} cannot be found or resolved.`
       );
     }
 

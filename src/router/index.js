@@ -11,7 +11,7 @@ const router = require("koa-router");
 
 const Router = router();
 
-Router.post("/user", postUser);
+Router.post("/users", postUser);
 
 Router.get("/packages/:name", getPackage);
 Router.post("/packages/:name/yank", (ctx) => setYankStatus(ctx, true));

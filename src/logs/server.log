@@ -1,0 +1,343 @@
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /users | NoGithubToken","timestamp":"2023-11-28T20:55:19.893Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /users | NoGithubToken","timestamp":"2023-11-28T20:55:41.018Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /users | NoGithubToken","timestamp":"2023-11-28T20:57:59.444Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /users | NoGithubToken","timestamp":"2023-11-28T20:58:05.494Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /users | NoGithubToken","timestamp":"2023-11-28T20:58:08.338Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /users | NoGithubToken","timestamp":"2023-11-28T20:58:24.393Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /users | NoGithubToken","timestamp":"2023-11-28T20:58:26.482Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /users | NoGithubToken","timestamp":"2023-11-28T20:58:33.353Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /users | NoGithubToken","timestamp":"2023-11-28T20:58:39.209Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /users | NoGithubToken","timestamp":"2023-11-28T20:58:47.809Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /users | NoGithubToken","timestamp":"2023-11-28T20:59:07.514Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /users | NoGithubToken","timestamp":"2023-11-28T20:59:29.099Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /users | NoGithubToken","timestamp":"2023-11-28T20:59:30.716Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /users | NoGithubToken","timestamp":"2023-11-28T20:59:37.277Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /users | NoGithubToken","timestamp":"2023-11-28T20:59:56.942Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Generated new auth token for Git-Monke","timestamp":"2023-11-28T21:00:23.446Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Generated new auth token for Git-Monke","timestamp":"2023-11-28T21:07:01.919Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Generated new auth token for Git-Monke","timestamp":"2023-11-28T21:07:18.624Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Generated new auth token for Git-Monke","timestamp":"2023-11-28T21:13:29.234Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Generated new auth token for Git-Monke","timestamp":"2023-11-28T21:14:22.662Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Generated new auth token for Git-Monke","timestamp":"2023-11-28T21:14:33.547Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Generated new auth token for Git-Monke","timestamp":"2023-11-28T21:15:02.567Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Generated new auth token for Git-Monke","timestamp":"2023-11-28T21:15:45.470Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Generated new auth token for Git-Monke","timestamp":"2023-11-28T21:17:05.355Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Generated new auth token for Git-Monke","timestamp":"2023-11-28T21:17:45.851Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | NoPackageData","timestamp":"2023-11-28T21:20:14.944Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | NoPackageData","timestamp":"2023-11-28T21:21:35.341Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | NoPackageData","timestamp":"2023-11-28T21:21:58.359Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | NoPackageData","timestamp":"2023-11-28T21:25:52.465Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | NoPackageData","timestamp":"2023-11-28T21:26:00.780Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | PackageParseError","timestamp":"2023-11-28T21:28:15.634Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages/butt_package/yank?version=0.1.1 | PackageNotFound","timestamp":"2023-11-28T21:29:03.479Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | PackageParseError","timestamp":"2023-11-28T21:29:11.836Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | NoToml","timestamp":"2023-11-28T21:30:10.902Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | NoToml","timestamp":"2023-11-28T21:30:49.852Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | NoToml","timestamp":"2023-11-28T21:30:53.388Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | NoToml","timestamp":"2023-11-28T21:32:15.898Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /users | NoGithubToken","timestamp":"2023-11-28T21:32:50.514Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | NoToml","timestamp":"2023-11-28T21:32:59.548Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | NoToml","timestamp":"2023-11-28T21:33:41.108Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | NoToml","timestamp":"2023-11-28T21:33:45.284Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | NoToml","timestamp":"2023-11-28T21:34:06.483Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | NoToml","timestamp":"2023-11-28T21:34:11.995Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | NoToml","timestamp":"2023-11-28T21:34:27.929Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | NoToml","timestamp":"2023-11-28T21:34:39.661Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | NoToml","timestamp":"2023-11-28T21:34:45.553Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | NoToml","timestamp":"2023-11-28T21:36:04.340Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | NoPackageInToml","timestamp":"2023-11-28T21:36:16.702Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Git-Monke created a new package: luam!","timestamp":"2023-11-28T21:37:00.714Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"luam v0.1.0 added to registry","timestamp":"2023-11-28T21:37:00.717Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | InvalidVersion","timestamp":"2023-11-28T21:37:55.229Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"luam updated to v0.1.1","timestamp":"2023-11-28T21:38:01.188Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"luam v0.1.1 added to registry","timestamp":"2023-11-28T21:38:01.190Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served luam v0.1.1 | 1 downloads","timestamp":"2023-11-28T21:38:15.735Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | InvalidAuthKey","timestamp":"2023-11-28T21:48:41.990Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /users | NoGithubToken","timestamp":"2023-11-28T21:48:56.099Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /users | NoGithubToken","timestamp":"2023-11-28T21:49:06.917Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /users | NoGithubToken","timestamp":"2023-11-28T21:49:22.597Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /users | NoGithubToken","timestamp":"2023-11-28T21:50:03.394Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /users | NoGithubToken","timestamp":"2023-11-28T21:50:11.978Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /users | NoGithubToken","timestamp":"2023-11-28T21:50:51.007Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Generated new auth token for Git-Monke","timestamp":"2023-11-28T21:51:41.039Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | InvalidVersion","timestamp":"2023-11-28T21:54:52.714Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | InvalidVersion","timestamp":"2023-11-28T22:05:42.665Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served luam v0.1.1 | 2 downloads","timestamp":"2023-11-28T22:05:50.879Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served luam v0.1.1 | 3 downloads","timestamp":"2023-11-28T22:05:58.857Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Git-Monke created a new package: project!","timestamp":"2023-11-28T22:35:42.261Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"project v0.1.0 added to registry","timestamp":"2023-11-28T22:35:42.266Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served project v0.1.0 | 1 downloads","timestamp":"2023-11-28T22:35:49.549Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served project v0.1.0 | 2 downloads","timestamp":"2023-11-29T01:59:32.815Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Git-Monke created a new package: printstuff!","timestamp":"2023-11-29T02:01:31.040Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"printstuff v0.1.0 added to registry","timestamp":"2023-11-29T02:01:31.043Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served printstuff v0.1.0 | 1 downloads","timestamp":"2023-11-29T02:01:46.702Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Git-Monke created a new package: program!","timestamp":"2023-11-29T02:04:23.052Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"program v0.1.0 added to registry","timestamp":"2023-11-29T02:04:23.054Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 1 downloads","timestamp":"2023-11-29T02:04:34.628Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Git-Monke created a new package: library!","timestamp":"2023-11-29T02:08:53.445Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"library v0.1.0 added to registry","timestamp":"2023-11-29T02:08:53.448Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served library v0.1.0 | 1 downloads","timestamp":"2023-11-29T02:09:01.532Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | InvalidVersion","timestamp":"2023-11-29T02:11:07.804Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Git-Monke created a new package: program!","timestamp":"2023-11-29T02:11:24.024Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"program v0.1.0 added to registry","timestamp":"2023-11-29T02:11:24.026Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Git-Monke created a new package: library!","timestamp":"2023-11-29T02:12:06.354Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"library v0.1.0 added to registry","timestamp":"2023-11-29T02:12:06.358Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served library v0.1.0 | 1 downloads","timestamp":"2023-11-29T02:12:10.998Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Git-Monke created a new package: program!","timestamp":"2023-11-29T02:12:34.633Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"program v0.1.0 added to registry","timestamp":"2023-11-29T02:12:34.636Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 1 downloads","timestamp":"2023-11-29T02:13:04.412Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served library v0.1.0 | 2 downloads","timestamp":"2023-11-29T02:13:04.426Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 2 downloads","timestamp":"2023-11-29T02:16:52.196Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served library v0.1.0 | 3 downloads","timestamp":"2023-11-29T02:16:52.214Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 3 downloads","timestamp":"2023-11-29T02:32:15.774Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served library v0.1.0 | 4 downloads","timestamp":"2023-11-29T02:32:15.792Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Git-Monke created a new package: thing!","timestamp":"2023-11-29T03:54:00.221Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"thing v0.1.0 added to registry","timestamp":"2023-11-29T03:54:00.230Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"thing updated to v0.1.1","timestamp":"2023-11-29T03:54:45.311Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"thing v0.1.1 added to registry","timestamp":"2023-11-29T03:54:45.314Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served thing v0.1.1 | 1 downloads","timestamp":"2023-11-29T04:52:15.427Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served thing v0.1.0 | 2 downloads","timestamp":"2023-11-29T04:52:33.772Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served thing v0.1.1 | 3 downloads","timestamp":"2023-11-29T04:52:38.611Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"thing updated to v0.2.1","timestamp":"2023-11-29T04:53:25.880Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"thing v0.2.1 added to registry","timestamp":"2023-11-29T04:53:25.890Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served thing v0.1.1 | 4 downloads","timestamp":"2023-11-29T04:53:30.878Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served thing v0.2.1 | 5 downloads","timestamp":"2023-11-29T04:53:34.411Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served thing v0.2.1 | 6 downloads","timestamp":"2023-11-29T05:30:52.015Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served thing v0.1.1 | 7 downloads","timestamp":"2023-11-29T05:31:01.837Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served thing v0.1.0 | 8 downloads","timestamp":"2023-11-29T05:31:39.177Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served thing v0.1.1 | 9 downloads","timestamp":"2023-11-29T05:31:45.861Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served thing v0.2.1 | 10 downloads","timestamp":"2023-11-29T05:31:53.665Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served thing v0.2.1 | 11 downloads","timestamp":"2023-11-29T23:03:54.903Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served thing v0.2.1 | 12 downloads","timestamp":"2023-11-29T23:04:19.141Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served thing v0.2.1 | 13 downloads","timestamp":"2023-11-29T23:12:57.113Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served thing v0.2.1 | 14 downloads","timestamp":"2023-11-29T23:13:06.966Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Git-Monke created a new package: hash!","timestamp":"2023-11-29T23:32:43.122Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"hash v0.1.0 added to registry","timestamp":"2023-11-29T23:32:43.124Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served hash v0.1.0 | 1 downloads","timestamp":"2023-11-29T23:33:01.535Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | Package depends on hash v^0.1.0 which cannot be found in the registry.","timestamp":"2023-11-29T23:42:43.210Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Git-Monke created a new package: program!","timestamp":"2023-11-29T23:46:35.375Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"program v0.1.0 added to registry","timestamp":"2023-11-29T23:46:35.379Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | ImpureVersionNumber","timestamp":"2023-11-30T02:15:06.168Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Git-Monke created a new package: butt!","timestamp":"2023-11-30T02:15:47.760Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"butt v0.1.0 added to registry","timestamp":"2023-11-30T02:15:47.763Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 1 downloads","timestamp":"2023-11-30T02:16:23.296Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 2 downloads","timestamp":"2023-11-30T02:17:08.639Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 3 downloads","timestamp":"2023-11-30T02:17:20.528Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 4 downloads","timestamp":"2023-11-30T02:17:27.336Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 5 downloads","timestamp":"2023-11-30T02:17:44.619Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 6 downloads","timestamp":"2023-11-30T02:18:05.391Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 7 downloads","timestamp":"2023-11-30T02:18:10.792Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 8 downloads","timestamp":"2023-11-30T02:18:19.296Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 9 downloads","timestamp":"2023-11-30T02:18:27.088Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 10 downloads","timestamp":"2023-11-30T02:18:33.995Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 11 downloads","timestamp":"2023-11-30T02:18:40.985Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 12 downloads","timestamp":"2023-11-30T02:18:46.749Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 13 downloads","timestamp":"2023-11-30T02:19:01.218Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 14 downloads","timestamp":"2023-11-30T02:24:57.812Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 15 downloads","timestamp":"2023-11-30T02:25:11.087Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 16 downloads","timestamp":"2023-11-30T02:25:20.046Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 17 downloads","timestamp":"2023-11-30T02:26:33.590Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 18 downloads","timestamp":"2023-11-30T02:26:43.196Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 19 downloads","timestamp":"2023-11-30T02:26:57.275Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | ImpureVersionNumber","timestamp":"2023-11-30T02:31:09.333Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Git-Monke created a new package: program!","timestamp":"2023-11-30T02:31:27.795Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"program v0.1.0 added to registry","timestamp":"2023-11-30T02:31:27.799Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 20 downloads","timestamp":"2023-11-30T02:35:01.626Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 1 downloads","timestamp":"2023-11-30T03:18:17.580Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 2 downloads","timestamp":"2023-11-30T03:21:18.935Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 3 downloads","timestamp":"2023-11-30T03:21:43.381Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 4 downloads","timestamp":"2023-11-30T03:22:07.581Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 5 downloads","timestamp":"2023-11-30T03:22:42.101Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 6 downloads","timestamp":"2023-11-30T03:23:02.046Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 7 downloads","timestamp":"2023-11-30T03:23:10.740Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 8 downloads","timestamp":"2023-11-30T03:23:15.131Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 9 downloads","timestamp":"2023-11-30T03:23:17.215Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 10 downloads","timestamp":"2023-11-30T03:23:25.034Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 11 downloads","timestamp":"2023-11-30T03:23:58.629Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 12 downloads","timestamp":"2023-11-30T03:24:14.801Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 13 downloads","timestamp":"2023-11-30T03:24:35.161Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 14 downloads","timestamp":"2023-11-30T03:25:18.600Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 15 downloads","timestamp":"2023-11-30T03:25:49.495Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 21 downloads","timestamp":"2023-11-30T03:25:49.506Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 16 downloads","timestamp":"2023-11-30T03:28:04.975Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 22 downloads","timestamp":"2023-11-30T03:28:04.982Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 17 downloads","timestamp":"2023-11-30T03:28:35.377Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 23 downloads","timestamp":"2023-11-30T03:28:35.385Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 18 downloads","timestamp":"2023-11-30T03:29:37.773Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 24 downloads","timestamp":"2023-11-30T03:29:37.781Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 19 downloads","timestamp":"2023-11-30T03:29:59.443Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 25 downloads","timestamp":"2023-11-30T03:29:59.452Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 20 downloads","timestamp":"2023-11-30T03:30:29.325Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 26 downloads","timestamp":"2023-11-30T03:30:29.340Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 21 downloads","timestamp":"2023-11-30T03:30:32.211Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 27 downloads","timestamp":"2023-11-30T03:30:32.220Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 22 downloads","timestamp":"2023-11-30T03:30:42.768Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 28 downloads","timestamp":"2023-11-30T03:30:42.779Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 23 downloads","timestamp":"2023-11-30T03:31:10.209Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 29 downloads","timestamp":"2023-11-30T03:31:10.217Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 24 downloads","timestamp":"2023-11-30T03:31:22.835Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 30 downloads","timestamp":"2023-11-30T03:31:22.846Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 25 downloads","timestamp":"2023-11-30T03:31:30.256Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 31 downloads","timestamp":"2023-11-30T03:31:30.266Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 26 downloads","timestamp":"2023-11-30T03:31:30.936Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 32 downloads","timestamp":"2023-11-30T03:31:30.944Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 27 downloads","timestamp":"2023-11-30T03:31:31.413Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 33 downloads","timestamp":"2023-11-30T03:31:31.429Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 28 downloads","timestamp":"2023-11-30T03:32:12.864Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 34 downloads","timestamp":"2023-11-30T03:32:12.882Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 29 downloads","timestamp":"2023-11-30T03:33:18.222Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 35 downloads","timestamp":"2023-11-30T03:33:18.233Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 30 downloads","timestamp":"2023-11-30T03:33:39.236Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 36 downloads","timestamp":"2023-11-30T03:33:39.246Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 31 downloads","timestamp":"2023-11-30T03:34:04.528Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 37 downloads","timestamp":"2023-11-30T03:34:04.538Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 32 downloads","timestamp":"2023-11-30T03:34:16.236Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 38 downloads","timestamp":"2023-11-30T03:34:16.243Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 33 downloads","timestamp":"2023-11-30T03:34:36.496Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 39 downloads","timestamp":"2023-11-30T03:34:36.505Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 34 downloads","timestamp":"2023-11-30T03:52:23.329Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 40 downloads","timestamp":"2023-11-30T03:52:23.344Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 35 downloads","timestamp":"2023-11-30T03:52:30.198Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 41 downloads","timestamp":"2023-11-30T03:52:30.210Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 36 downloads","timestamp":"2023-11-30T03:53:53.422Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 42 downloads","timestamp":"2023-11-30T03:53:53.429Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 37 downloads","timestamp":"2023-11-30T03:54:53.454Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 43 downloads","timestamp":"2023-11-30T03:54:53.465Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 38 downloads","timestamp":"2023-11-30T03:55:16.365Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 44 downloads","timestamp":"2023-11-30T03:55:16.372Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 39 downloads","timestamp":"2023-11-30T03:55:29.893Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 45 downloads","timestamp":"2023-11-30T03:55:29.904Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 40 downloads","timestamp":"2023-11-30T03:55:57.164Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 46 downloads","timestamp":"2023-11-30T03:55:57.182Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 41 downloads","timestamp":"2023-11-30T03:56:00.844Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 47 downloads","timestamp":"2023-11-30T03:56:00.863Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 42 downloads","timestamp":"2023-11-30T03:56:11.490Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 48 downloads","timestamp":"2023-11-30T03:56:11.497Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 43 downloads","timestamp":"2023-11-30T03:56:23.999Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 49 downloads","timestamp":"2023-11-30T03:56:24.011Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 44 downloads","timestamp":"2023-11-30T03:56:48.825Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 50 downloads","timestamp":"2023-11-30T03:56:48.832Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 45 downloads","timestamp":"2023-11-30T03:57:08.768Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 51 downloads","timestamp":"2023-11-30T03:57:08.780Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 46 downloads","timestamp":"2023-11-30T03:57:26.064Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 52 downloads","timestamp":"2023-11-30T03:57:26.073Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 47 downloads","timestamp":"2023-11-30T03:57:35.066Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 53 downloads","timestamp":"2023-11-30T03:57:35.070Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 48 downloads","timestamp":"2023-11-30T03:59:44.701Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 54 downloads","timestamp":"2023-11-30T03:59:44.712Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 49 downloads","timestamp":"2023-11-30T04:00:06.643Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 55 downloads","timestamp":"2023-11-30T04:00:06.652Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 50 downloads","timestamp":"2023-11-30T04:00:32.184Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 56 downloads","timestamp":"2023-11-30T04:00:32.191Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 51 downloads","timestamp":"2023-11-30T04:00:41.146Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 57 downloads","timestamp":"2023-11-30T04:00:41.153Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 52 downloads","timestamp":"2023-11-30T04:00:47.560Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 58 downloads","timestamp":"2023-11-30T04:00:47.572Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 53 downloads","timestamp":"2023-11-30T04:01:06.987Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 59 downloads","timestamp":"2023-11-30T04:01:06.993Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 54 downloads","timestamp":"2023-11-30T04:01:16.782Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 60 downloads","timestamp":"2023-11-30T04:01:16.790Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 55 downloads","timestamp":"2023-11-30T04:01:37.978Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 61 downloads","timestamp":"2023-11-30T04:01:37.986Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 56 downloads","timestamp":"2023-11-30T04:09:34.709Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 62 downloads","timestamp":"2023-11-30T04:09:34.731Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 57 downloads","timestamp":"2023-11-30T04:15:25.085Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 63 downloads","timestamp":"2023-11-30T04:15:25.094Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 58 downloads","timestamp":"2023-11-30T04:16:52.449Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 64 downloads","timestamp":"2023-11-30T04:16:52.462Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 59 downloads","timestamp":"2023-11-30T04:18:33.504Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 60 downloads","timestamp":"2023-11-30T04:19:41.752Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 61 downloads","timestamp":"2023-11-30T04:20:14.415Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 65 downloads","timestamp":"2023-11-30T04:20:14.425Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"butt updated to v0.1.1","timestamp":"2023-11-30T05:11:39.544Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"butt v0.1.1 added to registry","timestamp":"2023-11-30T05:11:39.556Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 62 downloads","timestamp":"2023-11-30T05:11:53.465Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.1 | 66 downloads","timestamp":"2023-11-30T05:11:53.474Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 63 downloads","timestamp":"2023-11-30T05:13:57.861Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 64 downloads","timestamp":"2023-11-30T05:14:07.707Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.1 | 67 downloads","timestamp":"2023-11-30T05:14:07.719Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 65 downloads","timestamp":"2023-11-30T05:15:39.263Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.1 | 68 downloads","timestamp":"2023-11-30T05:15:39.279Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 66 downloads","timestamp":"2023-11-30T05:15:48.629Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.1 | 69 downloads","timestamp":"2023-11-30T05:15:48.639Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 67 downloads","timestamp":"2023-11-30T05:25:30.846Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.1 | 70 downloads","timestamp":"2023-11-30T05:25:30.872Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.1 | 71 downloads","timestamp":"2023-11-30T05:27:21.925Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.1 | 72 downloads","timestamp":"2023-11-30T05:27:59.447Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.1 | 73 downloads","timestamp":"2023-11-30T05:28:42.346Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.1 | 74 downloads","timestamp":"2023-11-30T05:28:48.093Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.1 | 75 downloads","timestamp":"2023-11-30T05:29:05.090Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.1 | 76 downloads","timestamp":"2023-11-30T05:29:17.193Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.1 | 77 downloads","timestamp":"2023-11-30T05:29:22.849Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.1 | 78 downloads","timestamp":"2023-11-30T05:29:33.216Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.1 | 79 downloads","timestamp":"2023-11-30T05:29:40.611Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.1 | 80 downloads","timestamp":"2023-11-30T05:29:59.083Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.1 | 81 downloads","timestamp":"2023-11-30T05:30:08.981Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.1 | 82 downloads","timestamp":"2023-11-30T05:30:13.049Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 83 downloads","timestamp":"2023-11-30T05:30:18.822Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 84 downloads","timestamp":"2023-11-30T05:30:27.483Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 85 downloads","timestamp":"2023-11-30T05:30:59.108Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.1 | 86 downloads","timestamp":"2023-11-30T05:31:10.376Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | ImpureVersionNumber","timestamp":"2023-11-30T06:39:04.980Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | InvalidVersion","timestamp":"2023-11-30T06:39:10.093Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | ImpureVersionNumber","timestamp":"2023-11-30T06:39:13.388Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"program updated to v0.1.1","timestamp":"2023-11-30T06:39:22.793Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"program v0.1.1 added to registry","timestamp":"2023-11-30T06:39:22.805Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.1 | 68 downloads","timestamp":"2023-11-30T06:39:34.246Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.1 | 87 downloads","timestamp":"2023-11-30T06:39:34.258Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected GET /packages/proram | PackageNotFound","timestamp":"2023-11-30T06:39:46.368Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.1 | 69 downloads","timestamp":"2023-11-30T06:39:50.912Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.1 | 88 downloads","timestamp":"2023-11-30T06:39:50.923Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.1 | 70 downloads","timestamp":"2023-11-30T06:40:25.679Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.1 | 89 downloads","timestamp":"2023-11-30T06:40:25.691Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.1 | 71 downloads","timestamp":"2023-11-30T06:41:00.980Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.1 | 90 downloads","timestamp":"2023-11-30T06:41:00.993Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.1 | 72 downloads","timestamp":"2023-11-30T06:41:12.252Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.1 | 91 downloads","timestamp":"2023-11-30T06:41:12.277Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.1 | 73 downloads","timestamp":"2023-11-30T06:41:34.193Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.1 | 92 downloads","timestamp":"2023-11-30T06:41:34.201Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.1 | 74 downloads","timestamp":"2023-11-30T06:42:11.377Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.1 | 93 downloads","timestamp":"2023-11-30T06:42:11.383Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.1 | 75 downloads","timestamp":"2023-11-30T06:42:23.579Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.1 | 94 downloads","timestamp":"2023-11-30T06:42:23.590Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.1 | 76 downloads","timestamp":"2023-11-30T06:42:48.611Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.1 | 95 downloads","timestamp":"2023-11-30T06:42:48.622Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | ImpureVersionNumber","timestamp":"2023-11-30T06:43:42.389Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Git-Monke created a new package: butt2!","timestamp":"2023-11-30T06:43:45.206Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"butt2 v0.1.0 added to registry","timestamp":"2023-11-30T06:43:45.208Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt2 v0.1.0 | 1 downloads","timestamp":"2023-11-30T06:43:57.338Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | ImpureVersionNumber","timestamp":"2023-11-30T06:44:27.511Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"program updated to v0.2.0","timestamp":"2023-11-30T06:44:29.319Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"program v0.2.0 added to registry","timestamp":"2023-11-30T06:44:29.321Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | ImpureVersionNumber","timestamp":"2023-11-30T06:44:32.816Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | InvalidVersion","timestamp":"2023-11-30T06:44:35.137Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.2.0 | 77 downloads","timestamp":"2023-11-30T06:44:50.674Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt2 v0.1.0 | 2 downloads","timestamp":"2023-11-30T06:44:50.679Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.1 | 96 downloads","timestamp":"2023-11-30T06:44:50.689Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | ImpureVersionNumber","timestamp":"2023-11-30T06:48:57.991Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Git-Monke created a new package: butt!","timestamp":"2023-11-30T06:49:00.524Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"butt v0.1.0 added to registry","timestamp":"2023-11-30T06:49:00.526Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 1 downloads","timestamp":"2023-11-30T06:49:38.616Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | ImpureVersionNumber","timestamp":"2023-11-30T06:51:08.473Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Git-Monke created a new package: program!","timestamp":"2023-11-30T06:51:11.111Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"program v0.1.0 added to registry","timestamp":"2023-11-30T06:51:11.113Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 1 downloads","timestamp":"2023-11-30T06:52:15.136Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 2 downloads","timestamp":"2023-11-30T06:52:15.144Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 2 downloads","timestamp":"2023-11-30T06:52:53.039Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.0 | 3 downloads","timestamp":"2023-11-30T06:52:53.048Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | ImpureVersionNumber","timestamp":"2023-11-30T06:55:01.571Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"butt updated to v0.1.1","timestamp":"2023-11-30T06:55:02.538Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"butt v0.1.1 added to registry","timestamp":"2023-11-30T06:55:02.539Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 3 downloads","timestamp":"2023-11-30T06:55:32.947Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.1.1 | 4 downloads","timestamp":"2023-11-30T06:55:32.954Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | ImpureVersionNumber","timestamp":"2023-11-30T06:57:36.585Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Git-Monke created a new package: balls!","timestamp":"2023-11-30T06:57:37.694Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"balls v0.1.0 added to registry","timestamp":"2023-11-30T06:57:37.696Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served balls v0.1.0 | 1 downloads","timestamp":"2023-11-30T06:57:58.548Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served balls v0.1.0 | 2 downloads","timestamp":"2023-11-30T06:58:37.401Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | ImpureVersionNumber","timestamp":"2023-11-30T06:59:14.489Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"butt updated to v0.2.0","timestamp":"2023-11-30T06:59:15.552Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"butt v0.2.0 added to registry","timestamp":"2023-11-30T06:59:15.555Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served program v0.1.0 | 4 downloads","timestamp":"2023-11-30T06:59:28.014Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Served butt v0.2.0 | 5 downloads","timestamp":"2023-11-30T06:59:28.023Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Rejected POST /packages | NoPackageJSON","timestamp":"2023-11-30T16:11:55.331Z"}

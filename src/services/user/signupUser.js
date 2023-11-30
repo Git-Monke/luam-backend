@@ -69,7 +69,7 @@ async function signupUser(githubToken) {
     logger.log("info", `Successfully signed up new user ${user.login}`);
   }
 
-  return newAuthToken;
+  return [newAuthToken, user.login];
 }
 
 module.exports = signupUser;

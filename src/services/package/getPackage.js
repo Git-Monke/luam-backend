@@ -9,7 +9,7 @@ const logger = require("../../utils/logger");
 const { APIError } = require("../../utils/apierror");
 const adjustSemver = require("../../utils/semver");
 
-async function get(name, version) {
+async function get(name, version, metaonly = false) {
   const packageMeta = await tolerantFindOne(packageMetadata, {
     name: name,
   });
@@ -24,7 +24,7 @@ async function get(name, version) {
     version = adjustSemver(packageMeta.versionHistory, version);
   }
 
-  const packageData = await tolerantFindOne(packageVersions, {
+  let packageData = await tolerantFindOne(packageVersions, {
     name: name,
     version: version,
   });
@@ -33,23 +33,34 @@ async function get(name, version) {
     throw new APIError(404, "VersionNotFound");
   }
 
-  await packageMetadata.updateOne(
-    {
-      _id: packageMeta._id,
-    },
-    {
-      $inc: {
-        downloads: 1,
+  if (!metaonly) {
+    await packageMetadata.updateOne(
+      {
+        _id: packageMeta._id,
       },
-    }
-  );
+      {
+        $inc: {
+          downloads: 1,
+        },
+      }
+    );
 
-  logger.log(
-    "info",
-    `Served ${name} v${version} | ${(
-      packageMeta.downloads + 1
-    ).toLocaleString()} downloads`
-  );
+    logger.log(
+      "info",
+      `Served ${name} v${version} | ${(
+        packageMeta.downloads + 1
+      ).toLocaleString()} downloads`
+    );
+  }
+
+  if (metaonly) {
+    logger.log(
+      "info",
+      `Fetched ${name} v${version} metadata`
+    );
+
+    delete packageData.package
+  }
 
   return packageData;
 }

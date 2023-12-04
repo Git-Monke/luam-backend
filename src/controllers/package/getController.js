@@ -4,13 +4,14 @@ const getPackage = require("../../services/package/getPackage");
 
 async function get(ctx) {
   const name = ctx.params.name;
-  let version = ctx.query.version;
-
+  const version = ctx.query.version;
+  const metaonly = ctx.query.meta == "true"
+  
   if (!name) {
     throw new APIError(400, "NoName");
   }
 
-  let packageData = await getPackage(name, version);
+  let packageData = await getPackage(name, version, metaonly);
 
   ctx.body = packageData;
 }

@@ -98,6 +98,7 @@ async function postPackage(authKey, package) {
       dateCreated: Date.now(),
       author: user._id,
       downloads: 0,
+      github: packageJSON.package.github || "",
     });
 
     logger.log("info", `${user.login} created a new package: ${name}!`);

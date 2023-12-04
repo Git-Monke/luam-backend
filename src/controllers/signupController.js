@@ -5,8 +5,6 @@ async function userPOST(ctx) {
   const body = ctx.request.body;
   const token = body.token;
 
-  console.log(body);
-
   if (!token) {
     throw new APIError(400, "NoGithubToken");
   }

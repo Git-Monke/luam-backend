@@ -16,10 +16,22 @@ function randomID(length) {
     .join("");
 }
 
+const tokenCache = new Set();
+
 async function signupUser(githubToken) {
   if (!githubToken) {
     throw new APIError(400, "NoGithubToken", "Did not provide a github token");
   }
+
+  if (tokenCache.has(githubToken)) {
+    throw new APIError(
+      400,
+      "AlreadyUsedToken",
+      "You cannot use the same github token twice!"
+    );
+  }
+
+  tokenCache.add(githubToken);
 
   let emails = (await githubGet("user/emails", githubToken)).data;
 
